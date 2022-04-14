@@ -6,13 +6,13 @@ Your friendly Neighborhood Pending Transaction Explorer
 
 ---
 
-The following code helps the user fetch and analyze pending transactions from a list of different blockchain networks. Pending transactions are the transactions that are yet to be part of a block. They are stored in an in-memory cache of a blockchain node, called mempool (Hence the name MemExplorer :D ). The user can access these transactions by connecting to a node that is part of a particular blockchain network and "subscribing" to the stream of pending transactions running through the node's memory pool. The code aims to enable easy access to these transactions and also helps the user analyze these transactions by displaying the relevant information regarding these transactions.
+The following code helps the user fetch and analyze pending transactions from a list of different blockchain networks. Pending transactions are the transactions that are yet to be part of a block. They are stored in an in-memory cache of a blockchain node called the mempool (Hence the name MemExplorer :D ). The user can access these transactions by connecting to a node that is part of a particular blockchain network and "subscribing" to the stream of pending transactions running through the node's memory pool. The code aims to enable easy access to these transactions and also helps the user analyze these transactions by displaying the relevant information regarding these transactions.
 
 ## Project Details
 
 ---
 
-The code makes use of the wss node endpoint and the web3.js library to access the pending transactions. The project aims to keep the accessing process as general and modular as possible to allow the users to connect to several different nodes that are part of several different networks. The user can use this code and connect to any EVM-based nodes like Ethereum, Polygon, Binance Smart Chain, Avalanche, fantom, etc.
+The code makes use of the wss node endpoint and the web3.js library to access the pending transactions. The project aims to keep the accessing process as general and modular as possible to allow the users to connect to several different nodes that are part of several different networks. The user can use this code to connect to the nodes belonging to any EVM-based platoforms like Ethereum, Polygon, Binance Smart Chain, Avalanche, fantom, etc.
 
 The project structure is as follows :
 
@@ -55,7 +55,7 @@ Go to the root project folder and run
 
 ### Edit config.json
 
-The config file is one of the key components of the whole project. It contains the names of the blockchain and also the wss endpoint of a single node that is part of the blockchain network. The data is structured in nested-json format and the user is free to add the data regarding multiple networks and its corresponding nodes . The general template of the file is as follows :
+The config file is one of the key components of the whole project. It contains the names of the blockchain networks and also the wss endpoint of a single node that is part of the blockchain network. The data is structured in nested-json format and the user is free to add the information regarding multiple networks and its corresponding nodes . The general template of the file is as follows :
 ```
     {
         "name-of-network" : {
@@ -79,7 +79,7 @@ a sample config.json file looks like this :
     }
 
 ```
-The user is free to add or modify the data according to their convenience. The program use this file in order to connect ot various networks and their nodes. So,while editing, make sure that
+The program use this file in order to connect to various networks and their nodes. So,while editing the file, make sure that
 
   * You don't change the name of the file
   * you don't change the location of the file
@@ -89,10 +89,10 @@ If there is a change in the name or location of the file, then you need to make 
 
 ### Execute the file
 
-Once you have completed all the previous steps, then all you need to do is go to the root folder and run
+Once you complete all the previous steps,  go to the root folder and run
 ```
  npm start
 ```
-If you have Multiple networks given in your config.json, you can run multiple instences of the program in seperate terminals, each accessing the nodes in seperate networks.
+If you have multiple networks given in your config.json, you can run multiple instences of the program in seperate terminals, each accessing the nodes belonging to seperate networks.
 
 ---
