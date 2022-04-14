@@ -1,2 +1,2 @@
 # MemExplorer
-A program That helps fetch pending transactions from a wide range of blockchain platforms 
+Your friendly Neighborhood Pending Transaction Explorer
