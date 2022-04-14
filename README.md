@@ -44,8 +44,8 @@ The project structure is as follows :
 
 Make sure you have the following prerequisites in your system.
 
-* Node | ^v12.22.7
-* NPM  ^6.14.15
+* Node   ^v12.22.7
+* NPM    ^6.14.15
 
 ### Install Dependencies
 
