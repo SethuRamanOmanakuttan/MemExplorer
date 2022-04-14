@@ -1,10 +1,5 @@
-
-
 {
-    "polygon":{
-        "wss": "wss://polygon-mainnet.g.alchemy.com/v2/DkvONCPl2vtLON-WtKO9YuS4AKBt2n2Z"
-    },
-    "ethereum":{
-        "wss":"wss://mainnet.infura.io/ws/v3/9ae5c24092fc4af389fc6f557b76bd09"
+    "name-of-network" : {
+        "wss" : "wss-endpoint-of-the-node"
     }
 }

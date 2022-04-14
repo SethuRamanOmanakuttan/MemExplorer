@@ -4,7 +4,8 @@
   "description": "A package to view pending transactions in a blockchain network",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "author": "Sethu Raman Omanakuttan",
   "license": "ISC",
