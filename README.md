@@ -93,5 +93,6 @@ Once you have completed all the previous steps, then all you need to do is go to
 ```
  npm start
 ```
+If you have Multiple networks given in your config.json, you can run multiple instences of the program in seperate terminals, each accessing the nodes in seperate networks.
 
 ---
