@@ -12,7 +12,7 @@ The following code helps the user fetch and analyze pending transactions from a 
 
 ---
 
-The code makes use of the wss node endpoint and the web3.js library to access the pending transactions. The project aims to keep the accessing process as general and modular as possible to allow the users to connect to several different nodes that are part of several different networks. The user can use this code to connect to the nodes belonging to any EVM-based platoforms like Ethereum, Polygon, Binance Smart Chain, Avalanche, fantom, etc.
+The code makes use of the wss node endpoint and the web3.js library to access the pending transactions. The project aims to keep the accessing process as general and modular as possible to allow the users to connect to several different nodes that are part of several different networks. The user can use this code to connect to the nodes belonging to any EVM-based platforms like Ethereum, Polygon, Binance Smart Chain, Avalanche, fantom, etc.
 
 The project structure is as follows :
 
@@ -93,6 +93,6 @@ Once you complete all the previous steps,  go to the root folder and run
 ```
  npm start
 ```
-If you have multiple networks given in your config.json, you can run multiple instences of the program in seperate terminals, each accessing the nodes belonging to seperate networks.
+If you have multiple networks given in your config.json, you can run multiple instances of the program in separate terminals, each accessing the nodes belonging to separate networks.
 
 ---
